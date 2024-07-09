@@ -88,11 +88,141 @@ body {
     text-align: center;
     margin-bottom: 40px;
 }
-.new-year-img-container{
+
+.new-year-img-container {
     width: 802px;
     height: 500px
 }
-.new-year-img-container img{
+
+.new-year-img-container img {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
+
+/* mid-night-party-section */
+
+.mid-night-party-section {
+    max-width: 1320px;
+    max-height: 600px;
+    background-image: url(/Resources/images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+}
+
+.mid-night-party-section-title {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 11%;
+    text-align: left;
+    margin: 126px 94px 24px 126px;
+}
+
+.mid-night-party-section-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 39px 48px 126px;
+}
+
+.mid-night-party-section-title2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 158px;
+    margin-bottom: 142px;
+}
+
+.mid-night-party-section-img-container {
+    align-items: center;
+    margin: 68px 108px 67px 0px;
+
+}
+
+/* imformation section  */
+.information-section {
+    margin: 120px 140px 120px 140px;
+    max-width: 1320px;
+    max-height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.information-section p {
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* margin-top: 100px; */
+}
+
+.information-section div {
+    text-align: center;
+    margin-top: 48px;
+
+}
+
+.information-section div button {
+    width: 167px;
+    height: 56px;
+    background: rgb(255, 0, 0);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+/* information-section-secound style */
+
+.information-section-secound-tile-1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.information-section-secound-title-2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize
+}
+
+.information-section-secound-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+/* holiday-section-style */
